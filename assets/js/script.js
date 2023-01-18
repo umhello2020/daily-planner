@@ -2,28 +2,26 @@
 // the code isn't run until the browser has finished rendering all the elements
 // in the html.
 $(function () {
-  let timeBox = ['am-9', 'am-10'];
-  for (let i = 0; i < timeBox.length; i++) {
-    $(`#${timeBox[i]}`).children('textarea')[0].value = localStorage.getItem(timeBox[i]);
-    
-  };
-
   let time = dayjs().format('H');
-  let currentDay = dayjs().format('dddd, MMMM DD YYYY')
+  let currentDay = dayjs().format('dddd, MMMM DD, YYYY')
   $('#today-is').text(currentDay);
 
-  let currentTime = $(this).parent('div').data('time');
-  console.log(currentTime);
-  //function changeColor () {
-    //if (time == currentTime) {
-       //$('div').addClass('present');
-    //} else if (time < currentTime) {
-      //$('div').addClass('past');
-    //} else if (time > currentTime) {
-      //$('div').addClass('future');
-   // };
-  //};
-  
+  let timeBox = ['hour-9', 'hour-10', 'hour-11', 'hour-12', 'hour-13', 'hour-14', 'hour-15', 'hour-16', 'hour-17'];
+  for (let i = 0; i < timeBox.length; i++) {
+    $(`#${timeBox[i]}`).children('textarea')[0].value = localStorage.getItem(timeBox[i]);
+
+    if (time == timeBox) {
+      console.log('hello present');
+      $('textarea').removeClass('future').removeClass('past').addClass('present');
+    } else if (time < timeBox) {
+      console.log('hello past');
+      $('textarea').removeClass('present').removeClass('future').addClass('past');
+    } else if (time > timeBox) {
+      console.log('hello future');
+      $('textarea').removeClass('past').removeClass('present').addClass('future');
+   };
+  };
+
   let saveBtn = $('.saveBtn');
   function saveEvent () {
     let newEvent = $(this).siblings('textarea')[0].value;
