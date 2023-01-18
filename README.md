@@ -11,7 +11,17 @@ I hope that this might let other's know that persistance will work out for you, 
 HERE IS A LINK TO THE DEPLOYED SITE ----> https://umhello2020.github.io/daily-planner/
 
 ## Visuals
-Here are some visuals of the deployed site --->
+Here are some visuals of the deployed site (IMPORTANT NOTE TO ADD: At the time of day that I am posting this I am past work day hours so all of the events will appear red, however when you run through it will appear with the correct colors)--->
+![Screenshot_20230117_095616](https://user-images.githubusercontent.com/118483617/213082773-8df5d6d6-67c0-4165-8a8e-ffc81b83bbf4.png)
+
+![Screenshot_20230117_095639](https://user-images.githubusercontent.com/118483617/213082789-4dc6435b-1e0f-410b-ad83-6f86eac10a5d.png)
+
+![Screenshot_20230117_095710](https://user-images.githubusercontent.com/118483617/213082808-11f85ee3-50c5-4b6e-a416-da79ad93d800.png)
+
+![Screenshot_20230117_095752](https://user-images.githubusercontent.com/118483617/213082826-99da6fbc-1b31-4f5a-ac88-faabd8cc3da7.png)
+
+![Screenshot_20230117_095844](https://user-images.githubusercontent.com/118483617/213082842-1ff549b3-f853-44c4-b457-bd66c7472e09.png)
+
 
 ## Installation
 N/A
