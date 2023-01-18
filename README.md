@@ -8,7 +8,7 @@ I am very glad that I was able to work through this project easily, and it has g
 I hope that this might let other's know that persistance will work out for you, and it will get easier with practice and by doing.
 
 ## Link to Deployed Site
-HERE IS A LINK TO THE DEPLOYED SITE ----> 
+HERE IS A LINK TO THE DEPLOYED SITE ----> https://umhello2020.github.io/daily-planner/
 
 ## Visuals
 Here are some visuals of the deployed site --->
