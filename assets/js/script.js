@@ -11,13 +11,10 @@ $(function () {
     $(`#${timeBox[i]}`).children('textarea')[0].value = localStorage.getItem(timeBox[i]);
 
     if (time == timeBox) {
-      console.log('hello present');
       $('textarea').removeClass('future').removeClass('past').addClass('present');
     } else if (time < timeBox) {
-      console.log('hello past');
       $('textarea').removeClass('present').removeClass('future').addClass('past');
     } else if (time > timeBox) {
-      console.log('hello future');
       $('textarea').removeClass('past').removeClass('present').addClass('future');
    };
   };
